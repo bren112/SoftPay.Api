@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../SoftPay.Apllication/SoftPay.Apllication.csproj" />
+  <Project Path="../SoftPay.Core/SoftPay.Core.csproj" />
+  <Project Path="../SoftPay.Infraestructure/SoftPay.Infraestructure.csproj" />
+  <Project Path="../SoftPay.Shared/SoftPay.Shared.csproj" />
+  <Project Path="SoftPay.APi.csproj" />
+</Solution>

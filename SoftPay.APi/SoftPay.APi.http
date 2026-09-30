@@ -1,0 +1,6 @@
+@SoftPay.APi_HostAddress = http://localhost:5022
+
+GET {{SoftPay.APi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
