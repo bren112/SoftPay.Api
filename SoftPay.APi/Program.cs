@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-builder.Services.AddInfrasctuture(); // minha camada de infraestrutura
+builder.Services.AddInfrasctuture(builder.Configuration); // minha camada de infraestrutura
 
 var app = builder.Build();
 
