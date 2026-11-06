@@ -11,3 +11,10 @@ Para iniciar a API:
 ```sh
 dotnet run --project SoftPay.APi
 ```
+
+## Saúde da aplicação
+
+- `GET /health/live`: indica se a API está respondendo, sem consultar dependências.
+- `GET /health/ready`: verifica se a API consegue se conectar ao PostgreSQL. Retorna HTTP 200 quando o banco está acessível e 503 quando não está.
+
+Configure a conexão antes de iniciar a API, inclusive para usar essas verificações.
